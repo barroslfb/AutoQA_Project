@@ -28,15 +28,3 @@ This project demonstrates a closed-loop improvement workflow (**Detect → Route
   * **`item_3`:** Showed a massive **+25.7% lift** in Month 1 retention when performed correctly by the tutor.
   * **`item_14`:** Demonstrated an **18.2% lift** in next lesson attendance, paired with a solid moderate Kappa (0.54), making it a highly reliable and economically impactful signal.
 * **Operational Strategy:** Designed a one-to-many automated workflow to route aggregated insights to Tutor Development, triggering async training campaigns instead of unscalable 1-on-1 interventions.
-
-## 📂 Repository Structure
-```text
-├── data/
-│   ├── autoqa_output_gpt4o_240.csv    # AutoQA output (Model Version A)
-│   ├── autoqa_output_gpt51_240.csv    # AutoQA output (Model Version B)
-│   └── outcomes_240.csv               # Student business outcomes
-├── notebooks/
-│   └── LuizFelipeBarros_AutoQA.ipynb  # Main analysis notebook (Data Cleaning, EDA, Stats)
-├── docs/
-│   └── AutoQA_Executive_Memo.pdf      # Executive summary of findings and business proposals
-└── README.md
